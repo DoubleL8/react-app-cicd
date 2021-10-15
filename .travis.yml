@@ -4,4 +4,4 @@ services:
 before_install:
   - docker build -t lvl236/react-image -f Dockerfile.dev .
 scripts:
-  - docker run -e CI=true lvl236/react-image npn run test
+  - docker run -e CI=true lvl236/react-image npm run test
